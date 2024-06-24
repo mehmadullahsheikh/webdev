@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+        .box {
+            height: 300px;
+            width: 300px;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+         .box img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: all 1s ease;
+            filter:drop-shadow(16px 116px 20px red);
+            clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+        }
+        .box:hover img {
+            scale: 1.2;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="/image/image.jpg/shahrukh.img.jpg" alt="">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    color: black;
+    margin: 0px;
+
+    
+    text-align: center;
+}
+th{
+    background-color: rgb(170, 100, 50);
+}
+ td{
+    background-color: aquamarine;
+ }
+ table{
+    width: 550px;
+    height: 250px;
+ }
+ ul li{
+    list-style-type:square;
+    background-color: rgba(17, 17, 185, 0.652);
+    list-style-position: inside;
+ }
+ body{
+    background-color: blueviolet;
+ }
+
